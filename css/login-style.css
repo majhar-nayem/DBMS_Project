@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 12% 0 0 0;
+  margin: auto;
+}
+
+.login-body{
+background-image: url("http://localhost/cse/images/nsu-campus.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: 100% auto;
+
+}
+
+.login-title p{
+font-family: "Roboto", sans-serif;
+font-size: 25px;
+font-weight: bold;
+color: #4CAF50;
+}
+
+.form {
+background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 15px 45px 45px 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover{
+  background: #43A047;
+}
